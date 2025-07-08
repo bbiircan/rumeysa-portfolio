@@ -2,7 +2,12 @@
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaJava, FaPhp, FaBootstrap, FaLaravel, FaNodeJs, FaNpm, FaAngular } from "react-icons/fa";
 
-import { SiTailwindcss, SiMysql, SiCsharp, SiTypescript, SiApache, SiMicrosoftsqlserver, SiPostgresql, SiMariadb, SiPostman, SiSwagger } from "react-icons/si";
+import { SiTailwindcss, SiMysql, SiTypescript, SiApache, SiMicrosoftsqlserver, SiPostgresql, SiMariadb, SiPostman, SiSwagger } from "react-icons/si";
+
+import { TbBrandCSharp } from "react-icons/tb";
+
+import { DiMsqlServer } from "react-icons/di";
+
 
 // education data
 const education = {
@@ -36,16 +41,6 @@ const education = {
     },
     {
       institution: "Turkcell Geleceği Yazanlar",
-      degree: "C# ile Algoritma ve Programlama",
-      duration:"2022"
-    },
-    {
-      institution: "Turkcell Geleceği Yazanlar",
-      degree: "C# Form ile Görsel ve Nesne Tabanlı Programlama",
-      duration:"2022"
-    },
-    {
-      institution: "Turkcell Geleceği Yazanlar",
       degree: "React",
       duration:"2024"
     },
@@ -58,6 +53,16 @@ const education = {
       institution: "Turkcell Geleceği Yazanlar",
       degree: "SQL",
       duration:"2024"
+    },
+        {
+      institution: "Turkcell Geleceği Yazanlar",
+      degree: "C# ile Algoritma ve Programlama",
+      duration:"2022"
+    },
+    {
+      institution: "Turkcell Geleceği Yazanlar",
+      degree: "C# Form ile Görsel ve Nesne Tabanlı Programlama",
+      duration:"2022"
     },
   ]
 }
@@ -120,7 +125,7 @@ const skills = {
       name: "mysql"
     },
     {
-      icon: <SiCsharp/>,
+      icon: <TbBrandCSharp />,
       name: "csharp"
     },
     {
@@ -132,7 +137,7 @@ const skills = {
       name: "apache"
     },
     {
-      icon: <SiMicrosoftsqlserver/>,
+      icon: <DiMsqlServer/>,
       name: "microsoftsqlserver"
     },
     {

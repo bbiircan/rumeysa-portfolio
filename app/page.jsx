@@ -21,10 +21,12 @@ const Home = () => {
               I am a web developer focused on creating innovative and efficient solutions with modern technologies, prioritizing user-centered design and high performance in every project.
             </p>
             {/* btn and socials */}
-            <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+            <div className="flex flex-col xl:flex-row items-center gap-2">
+            <Button asChild variant="outline" size="lg" className="uppercase flex items-center gap-2">
+              <a href="/assets/cv/cv.pdf" download>
               <span>Download CV</span>
               <FiDownload className="text-xl" />
+              </a>
             </Button>
             <div className="mb-8 xl:mb-0">
               <Social containerStyles="flex gap-6" 
